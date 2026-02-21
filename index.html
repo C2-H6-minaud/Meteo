@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo Vendéenne - Goul’ de Doué</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0f1d">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="custom-select-container">
+                <div class="select-selected" id="selected-item">
+                    <span>85 - Vendée</span>
+                </div>
+                <div class="select-items select-hide" id="options-list">
+                    </div>
+            </div>
+            <p id="date">-- -- ----</p>
+        </header>
+
+        <main>
+            <div class="weather-main">
+                <div id="weather-icon">☀️</div>
+                <h2 id="temperature">--°C</h2>
+                <p id="condition">On r'garde le temps...</p>
+            </div>
+
+            <div class="threat-line">
+                <span id="threat-text">Attends un p'tit peu mon gâs...</span>
+            </div>
+
+            <div class="details-grid">
+                <div class="detail-card">
+                    <span>Humidité</span>
+                    <b id="humidity">--%</b>
+                </div>
+                <div class="detail-card">
+                    <span>Vent</span>
+                    <b id="wind">-- km/h</b>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
