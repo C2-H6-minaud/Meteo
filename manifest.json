@@ -1,6 +1,6 @@
 {
   "short_name": "WeatherBully",
-  "name": "WeatherBully - Météo & Menaces",
+  "name": "Météo Vendée",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/4064/4064276.png",
@@ -13,4 +13,5 @@
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "display": "standalone"
+
 }
